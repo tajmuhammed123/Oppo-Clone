@@ -1,0 +1,228 @@
+@font-face {
+    font-family: Oppo;
+    src: url('Font/OPPOSansRegular.ttf');
+}
+@font-face {
+    font-family: OppoBold;
+    src: url('Font/OPPOSansBold.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Oppo;
+}
+.navbar{
+    padding: 10px 30px !important;
+    top: 0;
+    position: sticky !important;
+    background-color: white !important;
+}
+.nav-collapse{
+    z-index: 10;
+}
+
+@media (max-width: 500px){
+    .navbar{
+        padding: 0;
+        margin: 0;
+    }
+    .slide-bar{
+        width: 200px !important;
+        height: 50px !important;
+    }
+    .slide-text{
+        font-size: 50% !important;
+        padding: 2px !important;
+    }
+    .slide-head{
+        font-size: 70% !important;
+    }
+    .slide-btn{
+        padding: 5px 10px !important;
+        font-size: 6px !important;
+    }
+    .mobiles{ 
+        padding-top: 40px !important;
+    }
+}
+.form-control{
+    width: 220px !important;
+}
+.logo{
+    width: 90px;
+}
+
+.card-img-top{
+    border-radius: 0 !important;
+}
+.mobile-card{
+    border-radius: 0 !important;
+    background-color: beige !important; 
+    border: 0 !important;
+    overflow: hidden !important;
+}
+.nav-collapse{
+    z-index: 10;
+}
+.slide-text{
+    padding: 10px 0px;
+    font-size: 30px;
+}
+.slide-btn{
+    padding: 10px 20px !important;
+    font-size: 30px;
+}
+.bi{
+    cursor: pointer;
+}
+.phone-card{
+    border-radius: 0 !important;
+    background-color: white !important; 
+    border: 0 !important;
+    overflow: hidden !important;
+}
+.mobiles{
+    background-color: beige; 
+    width: 100%; 
+    padding-top: 100px;
+}
+.btn{
+    border-radius: 0 !important;
+}
+.main-card{
+    justify-content: center !important;
+    width: 100% !important;
+}
+
+@media (min-width:500px) {
+    .mobiles{
+        padding: 50px;
+        padding-top: 100px;
+    }
+    .phone{
+        padding: 50px;
+        padding-top: 100px;
+    }
+    .offers{
+        padding: 50px;
+        padding-top: 100px;
+    }
+    .card-main{
+        padding: 3rem !important;
+        width: 700px !important;
+    }
+    .card-sub{
+        padding-left: 9rem !important;
+    }
+    .text1{
+        padding-left: 3rem !important;
+    }
+}
+@media (max-width:800px){
+    .card-sub{
+        padding-left: 0rem !important;
+    }
+    .text1{
+        padding-left: 0rem !important;
+    }
+}
+.phone{
+    background-color: white; 
+    width: 100%; 
+    padding-top: 100px;
+}
+.offers{
+    background-color: rgb(225, 222, 222) !important; 
+    width: 100%; 
+    padding-top: 100px;
+}
+.offers-card{
+    border-radius: 0 !important;
+    background-color: rgb(225, 222, 222) !important; 
+    border: 0 !important;
+}
+
+.card-img-top{
+    transition: transform .4s;
+}
+.card-img-top:hover img{
+	transition: .3s ease-in-out;
+}
+.inner{
+	overflow: hidden;
+}
+.inner img {
+	transform: scale(1.1);
+	transition: .3s ease-in-out;
+}
+.inner:hover img {
+	transform: scale(1);
+    opacity: 0.9;
+}
+.carousel-content {
+    position: absolute;
+    bottom: 50%;
+    left: 10%;
+    color: black !important;
+    font-family: OppoBold;
+}
+.input-group{
+    width: 50% !important;
+}
+@media (max-width: 500px) {
+    .contact{
+        width: 100% !important;
+    }
+    .bottom-text{
+        padding: 0 !important;
+      }
+}
+.contact-text{
+    font-size: 11px !important;
+}
+.footer-list{
+    flex-direction: column !important;
+    justify-content: start !important;
+
+}
+.line1{
+    border: 1px solid rgb(255, 255, 255); 
+    width: 30%; 
+    margin: 0; 
+    opacity: 1;
+}
+.line2{
+    border: 1px solid rgb(255, 255, 255); 
+    width: 98%; 
+    opacity: 1;
+}
+.sub-text{
+    font-size: 9px !important;
+}
+.main-text{
+    font-size: 14px !important;
+}
+.footer-itemlist{
+    align-items: start !important;
+}
+.smedia{
+    background-color: #acacac; 
+    color: #000000; 
+    padding: 3.5px 8px !important;
+    border-radius: 100px;
+}
+.base{
+    padding-left: 23px;
+}
+.btn-social {
+    width: 45px;
+    height: 45px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center !important;
+    border-radius: 45px !important;
+}
+.footer-text{
+    font-size: 11px;
+}
+
